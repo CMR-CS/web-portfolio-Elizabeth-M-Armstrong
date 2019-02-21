@@ -15,7 +15,20 @@ h2 {
 }
 
 h3 {
-    color: #1B75BB;    
+  color: #1B75BB;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  color: #2898EF;
+}
+
+
+a:active {
+  color: #155D95;
 }
 
 span {
@@ -51,4 +64,9 @@ footer {
 
 .btn-pod {
     font-size: 13px;
+}
+
+
+div > span {
+  font-size: 10px;
 }

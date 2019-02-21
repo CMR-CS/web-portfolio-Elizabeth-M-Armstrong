@@ -1,0 +1,20 @@
+*{
+    font-family:"Helvetica Neuw", Arial, sans-serif 
+}
+body{
+    background-color: lightgray;
+    color: black;
+}
+
+header{
+    
+}
+
+nav ul {
+    list-style: none;
+}
+/* pseudo classes*/
+    a:hover{
+   color: Green;
+   }
+    
