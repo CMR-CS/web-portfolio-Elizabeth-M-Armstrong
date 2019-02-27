@@ -1,20 +1,75 @@
 *{
-    font-family:"Helvetica Neuw", Arial, sans-serif 
+    font-family:"Helvetica Neuw", Arial, sans-serif;
 }
 body{
-    background-color: lightgray;
+    margin: auto;
+    background-color:lightgray;
     color: black;
-}
-
-header{
+    width:80%;
+    height:auto;
     
 }
-
-nav ul {
-    list-style: none;
+/*pseudo*/
+p::first-letter{
+    font-style: italic;
+    font-size: 20px;
+    color:rebeccapurple
+    
 }
-/* pseudo classes*/
-    a:hover{
+/*navigation menu styles*/ 
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li{
+    float: left;
+    margin-right: 0.5em;
+}
+nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /*no underline*/
+    background-color: paleturquoise;
+    color:crimson;
+    border: 2px soild red;
+    border-top-left-radius: 1em 1em; /*rounded corner! */
+    border-top-right-radius: 1em 1em; /*another rounded corner! */
+}
+nav ul li a:hover, nav ul li s:focus{
    color: Green;
+    background-color: cadetblue;
+    font-weight: bold;
    }
+
+
+h1{
+        border: 4px dotted yellow;
+            
+    }
+
+
+header{
+    border:3px dashed red;
+
+}
+
+p{
+    padding: 22px 25px 22px 25px;
+        margin: -10px -5px -10px -5px
+        width: 40%;
+        height: 10%;
+    position: relative;
+    background-color: darkseagreen;
+    background-size: 100px;
+    
+}
+h2{
+    border: 2px double orange;
+}
+main{
+    clear:left;
+}
+.active{
+    background-color:aquamarine;
+    color:darkolivegreen;
+}
     
