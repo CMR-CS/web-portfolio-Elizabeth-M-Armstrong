@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="styles/styles.css" rel="stylesheet">
 	<link rel="stylesheet" href="/styles/pixel.css">
   <script src="/scripts/pixel.js"></script>
 </head>
 <body>
+   <div id="palette">
+       <div class="pen" style="background-color:white;" onclick="setPenColor('white')"></div>
+       <div class="pen" style="background-color:black;" onclick="setPenColor('black')"></div>
+       <div class="pen" style="background-color:blue;" onclick="setPenColor('blue')"></div>
+        <div class="pen" style="background-color:red;" onclick="setPenColor('red')"></div>
+       <div class="pen" style="background-color:yellow;" onclick="setPenColor('yellow')"></div>
+       <div class="pen" style="background-color:green;" onclick="setPenColor('green')"></div>
+   </div>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Recipe.html">Recipe</a></li>
+                    <li><a href="Letter.html">Letter</a></li>
+                    <li><a href="Table.html">Tables</a></li>
+                    <li><a href="Graphics.html">Graphics</a></li>
+                    <li><a href="Pixel.html" class=active>Pixels</a></li>
+                </ul>  
+            </nav>
+        </header>
     <div id="art">
         <div class="row">
-            <div class="pixel" onClick="setPixelColor(this)">    
+            <div class="pixel" onclick="setPixelColor(this)">    
             </div>
-            <div class="pixel" onClick="setPixelColor(this)">   
+            <div class="pixel" onclick="setPixelColor(this)">   
             </div>
-            <div class="pixel" onClick="setPixelColor(this)">    
+            <div class="pixel" onclick="setPixelColor(this)">    
             </div>
             <div class="pixel" onClick="setPixelColor(this)">    
             </div>

@@ -6,8 +6,12 @@
 /*global $, window, document */
 
 // Simple jQuery event handler
+var penColor = 'black';
+function setPenColor(pen){
+    penColor = pen;
+}
 function setPixelColor(pixel)
 {
-    pixel.syles.backgroundColor = 'black';
-    
+    pixel.style.backgroundColor = penColor;
+     
 }
