@@ -1,0 +1,111 @@
+h1 {
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: orange;
+}
+#instrument{
+    height: 116px;
+    width: 812px;
+    padding-right: 10px
+    padding-top: 50px;
+    margin:auto;
+    position:absolute;
+    top: 0; left: 0; bottom:0; right:0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px
+    float:left;
+}
+#c{
+    background-color: black;
+    border: 3px solid chartreuse;
+}
+#d{
+    background-color: black;
+    border: 3px solid aqua;
+}
+#e{
+    background-color: black;
+    border: 3px solid blueviolet;
+}
+#f{
+    background-color: black;
+    border: 3px solid red;
+}
+#g{
+    background-color:black;
+    border: 3px solid gold;
+}
+#a{
+    background-color:black;
+    border: 3px solid royalblue;
+}
+#b{
+    background-color: black;
+    border: 3px solid greenyellow;
+}
+
+
+
+#c:hover{
+    background-color:darkgreen;
+    cursor: pointer;
+}
+#d:hover{
+    background-color:navy;
+    cursor: pointer;
+}
+
+#e:hover{
+    background-color:darkmagenta;
+    cursor: pointer;
+}
+#f:hover{
+    background-color:darkred;
+    cursor: pointer;
+}
+#g:hover{
+    background-color:darkgoldenrod;
+    cursor: pointer;
+}
+#a:hover{
+    background-color:darkslateblue;
+    cursor: pointer;
+}
+#b:hover{
+    background-color:forestgreen;
+    cursor: pointer;
+}
+
+
+
+#c:active{
+    background-color: chartreuse;
+}
+#d:active{
+    background-color: aqua;
+}
+#e:active{
+    background-color: blueviolet;
+}
+#f:active{
+    background-color: red;
+}
+#g:active{
+    background-color: gold;
+}
+#a:active{
+    background-color: royalblue;
+}
+#b:active{
+    background-color: greenyellow;
+}
